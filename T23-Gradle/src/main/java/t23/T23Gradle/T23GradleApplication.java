@@ -1,0 +1,14 @@
+package t23.T23Gradle;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class T23GradleApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(T23GradleApplication.class, args);
+		System.out.println("Hola Gradle!!");
+	}
+
+}
